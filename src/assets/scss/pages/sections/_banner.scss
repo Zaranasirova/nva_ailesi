@@ -6,6 +6,18 @@ margin-top: 112px;
   .container {
     .banner-item {
       height: 299px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .banner-image{
+        width: 100%;
+        height: 299px;
+        img{
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
+        }
+      }
     }
   }
 }
