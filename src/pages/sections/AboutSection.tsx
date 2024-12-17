@@ -3,9 +3,9 @@ import { HiChevronDoubleLeft } from "react-icons/hi";
 const AboutSection = () => {
   return (
     <section className="about-section">
-      <div className="container about-section-wrapper">
-        <h2>Haqqımızda</h2>
-        <div className="text-box">
+      <div className="container about-section-wrapper d-flex">
+        <h2 className="about-head-title">Haqqımızda</h2>
+        <div className="text-box ">
           <p className="about-text">
             Lorem ipsum dolor sit amet consectetur. Pulvinar ac et fermentum
             nibh fusce neque sapien purus. Donec ac adipiscing elit cursus
@@ -19,7 +19,7 @@ const AboutSection = () => {
             ultrices accumsan.
           </p>
           <button className="d-flex more-details-button">
-            <HiChevronDoubleLeft className="more-icon" />
+            <HiChevronDoubleLeft height={21.05} width={14.13} className="more-icon" />
             Daha ətraflı{" "}
           </button>
         </div>
