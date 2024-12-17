@@ -2,22 +2,35 @@
   background-color: $orange-200-color;
   width: 100%;
   height: 299px;
-margin-top: 112px;
+  margin-top: 112px;
+  
   .container {
     .banner-item {
       height: 299px;
       display: flex;
       align-items: center;
       justify-content: center;
-      .banner-image{
+      animation: showUp 4s ease-in-out;
+      .banner-image {
         width: 100%;
         height: 299px;
-        img{
+        img {
           width: 100%;
           height: 100%;
           object-fit: contain;
         }
       }
     }
+  }
+}
+
+@keyframes showUp {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%); /* Soldan başlayır */
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0); /* Sağ tərəfə gəlir */
   }
 }
