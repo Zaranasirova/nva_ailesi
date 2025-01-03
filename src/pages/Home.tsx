@@ -1,5 +1,6 @@
 import AboutSection from "./sections/AboutSection"
 import Banner from "./sections/Banner"
+import NewScenarios from "./sections/NewScenarios"
 import PopularScenarios from "./sections/PopularScenarios"
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         <Banner/>
         <AboutSection/>
         <PopularScenarios/>
+        <NewScenarios/>
     </main>
   )
 }
