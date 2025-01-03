@@ -1,0 +1,10 @@
+.popular-scenarios{
+    padding: 0 0 32px 0;
+    .popular-section-wrapper{
+        flex-direction: column;
+      .most-read-box{
+        display: flex;
+        gap: 30px;
+      }
+    }
+}

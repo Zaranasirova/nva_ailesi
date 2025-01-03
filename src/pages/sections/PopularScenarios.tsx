@@ -5,7 +5,7 @@ import image from "../../assets/image/image.png";
 const PopularScenarios = () => {
   return (
     <section className="popular-scenarios">
-      <div className="container popular-section-wrapper">
+      <div className="container popular-section-wrapper d-flex">
         <h2 className="head-title">Ən çox oxunan ssenarilər</h2>
         <div className="most-read-box">
           <div className="most-read">
