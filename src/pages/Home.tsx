@@ -1,5 +1,6 @@
 import AboutSection from "./sections/AboutSection"
 import Banner from "./sections/Banner"
+import PopularScenarios from "./sections/PopularScenarios"
 
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <main>
         <Banner/>
         <AboutSection/>
+        <PopularScenarios/>
     </main>
   )
 }

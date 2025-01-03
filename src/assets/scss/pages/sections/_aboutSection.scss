@@ -1,12 +1,8 @@
 .about-section {
-  padding: 32px 0;
+  padding: 0 0 32px 0;
   .about-section-wrapper {
     flex-direction: column;
-    gap: 32px;
-    .about-head-title {
-      font-size: 32px;
-      font-weight: 500;
-    }
+    
     .text-box {
       display: flex;
       flex-direction: column;
@@ -22,12 +18,13 @@
         display: flex;
         gap: 4px;
         border: none;
-        outline: none;
+        outline: none;  
         background-color: transparent;
         font-size: 24px;
         font-weight: 400;
         text-align: justify;
         color: $primary-color;
+        cursor: pointer;
         .more-icon {
      
           color: $primary-color;
