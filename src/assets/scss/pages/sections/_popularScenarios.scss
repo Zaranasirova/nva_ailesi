@@ -24,27 +24,48 @@
           position: absolute;
           bottom: 20px;
           left: 16px;
-          .movie-meta{
+          .movie-meta {
             display: flex;
             gap: 16px;
-            .read-year{
-                font-size: 14px;
-                color: #fff;
-                .comment-and-stars{
-                    display: flex;
-                    gap: 7px;
-                    .read-comment{
-                        display: flex;
-                        gap: 3px;
-                        .comment-icon{
-
-                        }
-                    }
-                }
+            align-items: center;
+            height: 100%;
+            .read-year {
+              font-size: 14px;
+              color: #fff;
             }
+           .comment-and-stars-box{
+            display: flex;
+            gap: 7px;
+            .comment-and-stars{
+                display: flex;
+                gap: 3.5px;
+                align-items: center;
+                .most-read-icon{
+                    width: 11px;
+                    height: 11px;
+                    
+                }
+                .icon-number{
+                    color: #fff;
+                    font-size: 12px;
+                }
+                .yellow{
+                    color: #FAFF07;
+                }
+
+            }
+           }
+          }
+          .movie-title{
+          .movie-head-name{
+            font-size: 24px;
+            color: #fff;
+            font-weight: 600;
+          }
           }
         }
       }
     }
   }
 }
+

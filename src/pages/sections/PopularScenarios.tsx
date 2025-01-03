@@ -14,24 +14,24 @@ const PopularScenarios = () => {
             </div>
             <div className="post-info">
               <div className="movie-meta">
-                <span className="read-year">2024</span>
-              <div className="comment-and-stars">
-              <span className="read-comment">
+              <span className="read-year">2024</span>
+              <div className="comment-and-stars-box">
+              <span className="comment-and-stars comment">
                   <img
                     src={comment}
                     alt="comment-svg"
-                    className="comment-icon"
+                    className="most-read-icon"
                   />
-                  <span className="comment-number">0</span>
+                  <span className="icon-number">0</span>
                 </span>
-                <span className="read-stars">
-                  <img src={stars} alt="stars-svg" className="star-image" />
-                  <span className="stars-number">8.2</span>
+                <span className="comment-and-stars stars">
+                  <img src={stars} alt="stars-svg" className="most-read-icon" />
+                  <span className="icon-number yellow">8.2</span>
                 </span>
               </div>
               </div>
               <div className="movie-title">
-                <h2>Lorem Ipsum</h2>
+                <h2 className="movie-head-name">Lorem Ipsum</h2>
               </div>
             </div>
           </div>
@@ -41,24 +41,24 @@ const PopularScenarios = () => {
             </div>
             <div className="post-info">
               <div className="movie-meta">
-                <span className="read-year">2024</span>
-              <div className="comment-and-stars">
-              <span className="read-comment">
+              <span className="read-year">2024</span>
+              <div className="comment-and-stars-box">
+              <span className="comment-and-stars comment">
                   <img
                     src={comment}
                     alt="comment-svg"
-                    className="comment-icon"
+                    className="most-read-icon"
                   />
-                  <span className="comment-number">0</span>
+                  <span className="icon-number">0</span>
                 </span>
-                <span className="read-stars">
-                  <img src={stars} alt="stars-svg" className="star-image" />
-                  <span className="stars-number">8.2</span>
+                <span className="comment-and-stars stars">
+                  <img src={stars} alt="stars-svg" className="most-read-icon" />
+                  <span className="icon-number yellow">8.2</span>
                 </span>
               </div>
               </div>
               <div className="movie-title">
-                <h2>Lorem Ipsum</h2>
+                <h2 className="movie-head-name">Lorem Ipsum</h2>
               </div>
             </div>
           </div>
@@ -68,24 +68,24 @@ const PopularScenarios = () => {
             </div>
             <div className="post-info">
               <div className="movie-meta">
-                <span className="read-year">2024</span>
-              <div className="comment-and-stars">
-              <span className="read-comment">
+              <span className="read-year">2024</span>
+              <div className="comment-and-stars-box">
+              <span className="comment-and-stars comment">
                   <img
                     src={comment}
                     alt="comment-svg"
-                    className="comment-icon"
+                    className="most-read-icon"
                   />
-                  <span className="comment-number">0</span>
+                  <span className="icon-number">0</span>
                 </span>
-                <span className="read-stars">
-                  <img src={stars} alt="stars-svg" className="star-image" />
-                  <span className="stars-number">8.2</span>
+                <span className="comment-and-stars stars">
+                  <img src={stars} alt="stars-svg" className="most-read-icon" />
+                  <span className="icon-number yellow">8.2</span>
                 </span>
               </div>
               </div>
               <div className="movie-title">
-                <h2>Lorem Ipsum</h2>
+                <h2 className="movie-head-name">Lorem Ipsum</h2>
               </div>
             </div>
           </div>
@@ -95,54 +95,28 @@ const PopularScenarios = () => {
             </div>
             <div className="post-info">
               <div className="movie-meta">
-                <span className="read-year">2024</span>
-              <div className="comment-and-stars">
-              <span className="read-comment">
+              <span className="read-year">2024</span>
+              <div className="comment-and-stars-box">
+              <span className="comment-and-stars comment">
                   <img
                     src={comment}
                     alt="comment-svg"
-                    className="comment-icon"
+                    className="most-read-icon"
                   />
-                  <span className="comment-number">0</span>
+                  <span className="icon-number">0</span>
                 </span>
-                <span className="read-stars">
-                  <img src={stars} alt="stars-svg" className="star-image" />
-                  <span className="stars-number">8.2</span>
+                <span className="comment-and-stars stars">
+                  <img src={stars} alt="stars-svg" className="most-read-icon" />
+                  <span className="icon-number yellow">8.2</span>
                 </span>
               </div>
               </div>
               <div className="movie-title">
-                <h2>Lorem Ipsum</h2>
+                <h2 className="movie-head-name">Lorem Ipsum</h2>
               </div>
             </div>
           </div>
-          <div className="most-read">
-            <div className="most-read-image">
-              <img src={image} alt="most-read" />
-            </div>
-            <div className="post-info">
-              <div className="movie-meta">
-                <span className="read-year">2024</span>
-              <div className="comment-and-stars">
-              <span className="read-comment">
-                  <img
-                    src={comment}
-                    alt="comment-svg"
-                    className="comment-icon"
-                  />
-                  <span className="comment-number">0</span>
-                </span>
-                <span className="read-stars">
-                  <img src={stars} alt="stars-svg" className="star-image" />
-                  <span className="stars-number">8.2</span>
-                </span>
-              </div>
-              </div>
-              <div className="movie-title">
-                <h2>Lorem Ipsum</h2>
-              </div>
-            </div>
-          </div>
+         
         </div>
       </div>
     </section>
