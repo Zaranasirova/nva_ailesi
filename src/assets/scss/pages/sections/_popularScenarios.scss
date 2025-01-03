@@ -57,6 +57,10 @@
            }
           }
           .movie-title{
+            display: -webkit-box;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;  
+            overflow: hidden;
           .movie-head-name{
             font-size: 24px;
             color: #fff;

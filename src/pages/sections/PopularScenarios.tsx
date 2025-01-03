@@ -112,11 +112,10 @@ const PopularScenarios = () => {
               </div>
               </div>
               <div className="movie-title">
-                <h2 className="movie-head-name">Lorem Ipsum</h2>
+                <h2 className="movie-head-name">Lorem Ipsum  </h2>
               </div>
             </div>
           </div>
-         
         </div>
       </div>
     </section>
