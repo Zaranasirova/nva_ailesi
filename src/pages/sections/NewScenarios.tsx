@@ -1,10 +1,7 @@
-import ScenarioCard from "../../components/ScenarioCard"
-
+import ScenarioCard from "../../components/ScenarioCard";
 
 const NewScenarios = () => {
-  return (
-   <ScenarioCard title={"Yeni ssenarilər"}/>
-  )
-}
+  return <ScenarioCard title={"Yeni ssenarilər"} />;
+};
 
-export default NewScenarios
+export default NewScenarios;
