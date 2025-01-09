@@ -10,7 +10,7 @@ const UserReviewsSection = () => {
     <section className="userReviews-section">
       <div className="userReviews">
         <h2 className="head-title">İstifadəçi rəyləri</h2>
-        <div className="customer-feed-back-box" style={{ background: "red" }}>
+        <div className="customer-feed-back-box">
           <div className="container">
             <div className="feedback-left">
               <h2 className="feedback-title">
