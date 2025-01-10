@@ -13,15 +13,20 @@ const Contact = () => {
     <section className="contact-section">
       <div className="container contact-section-wrapper">
         <h2 className="head-title">Bizimlə əlaqə saxlayın</h2>
-        <form>
+        <form className="contact-info">
           <div className="contact-left">
-            <label>Ad, Soyad</label>
-            <input type="text" placeholder="Ad/Soyad" />
+           <div className="name info">
+           <label>Ad, Soyad</label>
+           <input type="text" placeholder="Ad/Soyad" required />
+           </div>
 
+            <div className="subject-title info">
             <label>Mövzu başlığı</label>
-            <input type="text" placeholder="Daxil edin" />
+            <input type="text" placeholder="Daxil edin" required />
+            </div>
 
-            <label>Əlaqə nömrəsi</label>
+           <div className="telephone info">
+           <label>Əlaqə nömrəsi</label>
             <PhoneInput
               country={"az"}
               value={phone}
@@ -31,8 +36,9 @@ const Contact = () => {
                 required: true,
                 autoFocus: true,
               }}
-              placeholder="Telefon nömrəsini daxil edin"
+              placeholder="(+994) 00 000 00 00"
             />
+           </div>
           </div>
           <div className="contact-right">
             <label>Mesaj mətni</label>

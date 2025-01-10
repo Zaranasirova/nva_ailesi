@@ -4,7 +4,10 @@
 @import "./components/header";
 
 //sections
-@import "./pages/sections/banner";
-@import "./pages/sections/aboutSection";
-@import "./pages/sections/popularScenarios";
-@import "./pages/sections/userReviewsSection";
+//HomePage
+@import "./pages/sections/HomePage/banner";
+@import "./pages/sections/HomePage/aboutSection";
+@import "./pages/sections/HomePage/popularScenarios";
+@import "./pages/sections/HomePage/userReviewsSection";
+@import "./pages/sections/HomePage/contact";
+

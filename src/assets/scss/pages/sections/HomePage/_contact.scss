@@ -1,0 +1,33 @@
+.contact-section {
+  padding: 0 0 32px 0;
+  .contact-section-wrapper {
+    .head-title {
+      text-align: center;
+    }
+    .contact-info {
+      display: flex;
+      justify-content: space-between;
+      .contact-left {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        .info {
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+          label {
+            font-size: 20px;
+            font-weight: 400;
+          }
+          input {
+            width: 445px;
+            height: 48px;
+            border-radius: 10px;
+
+            border: 1px solid rgba(0, 0, 0, 0.4);
+          }
+        }
+      }
+    }
+  }
+}
