@@ -17,12 +17,12 @@ const Contact = () => {
           <div className="contact-left">
            <div className="name info">
            <label>Ad, Soyad</label>
-           <input type="text" placeholder="Ad/Soyad" required />
+           <input className="name-input" type="text" placeholder="Ad/Soyad" required />
            </div>
 
             <div className="subject-title info">
             <label>Mövzu başlığı</label>
-            <input type="text" placeholder="Daxil edin" required />
+            <input className="subject-input" type="text" placeholder="Daxil edin" required />
             </div>
 
            <div className="telephone info">
@@ -41,9 +41,11 @@ const Contact = () => {
            </div>
           </div>
           <div className="contact-right">
+            <div className="message-input">
             <label>Mesaj mətni</label>
             <textarea placeholder="Daxil edin..."></textarea>
-            <button>Göndər</button>
+            </div>
+            <button className="send-btn">Göndər</button>
           </div>
         </form>
       </div>
