@@ -68,8 +68,10 @@ const UserReviewsSection = () => {
                   <div className="latest-avatar">
                     <img src={ellipse_image1} alt="" />
                   </div>
+                  <div className="profile-info">
                   <h3 className="latest-name">Aysu Jafar</h3>
                   <span className="latest-date">12/12/24</span>
+                  </div>
                 </div>
                 <div className="latest-feedback-stars">
                   <img src={star} alt="star" />

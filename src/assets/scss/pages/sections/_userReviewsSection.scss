@@ -32,23 +32,79 @@
               .feedback-list__item {
                 width: 70px;
                 height: 70px;
-                
+
                 a {
                   img {
                     width: 100%;
                     height: 100%;
                     border-radius: 50%;
                     border: 2px solid #fff;
-                   
+                    object-fit: cover;
                   }
                 }
               }
             }
-            .feedback-list__count{
-                font-weight: 600;
-                font-size: 24px;
-                text-decoration: underline;
+            .feedback-list__count {
+              font-weight: 600;
+              font-size: 24px;
+              text-decoration: underline;
             }
+          }
+        }
+      }
+      .feedback-right {
+        width: 445px;
+        height: 314px;
+        background-color: $feedback-color;
+        border-radius: 20px;
+        padding: 36px 38px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        .latest-feedback-profile {
+          display: flex;
+          gap: 42px;
+          align-items: center;
+          .feedback-profile {
+            display: flex;
+            gap: 16px;
+            .latest-avatar {
+              width: 65px;
+              height: 66px;
+              img {
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+              }
+            }
+            .profile-info {
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+              .latest-name {
+                font-weight: 500;
+                font-size: 24px;
+                text-transform: capitalize;
+              }
+              .latest-date {
+                font-size: 16px;
+                font-weight: 300;
+              }
+            }
+          }
+        }
+        .latest-feedback-text {
+          width: 350px;
+          height: 144px;
+          display: -webkit-box;
+          -webkit-line-clamp: 4;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          .latest-text {
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.6;
           }
         }
       }
@@ -56,24 +112,19 @@
   }
 }
 
-
-
-
-
-
 // Şəkilləri 40px sola hərəkət etdirərək üst-üstə qoyma
 .feedback-list__item:nth-child(1) a img {
-    transform: translateX(0px); /* İlk şəkil heç bir dəyişiklik etməsin */
-  }
-  
-  .feedback-list__item:nth-child(2) a img {
-    transform: translateX(-15px); /* İkinci şəkil 40px sola hərəkət etsin */
-  }
-  
-  .feedback-list__item:nth-child(3) a img {
-    transform: translateX(-30px); /* Üçüncü şəkil 80px sola hərəkət etsin */
-  }
-  
-  .feedback-list__item:nth-child(4) a img {
-    transform: translateX(-45px); /* Dördüncü şəkil 120px sola hərəkət etsin */
-  }
+  transform: translateX(0px); /* İlk şəkil heç bir dəyişiklik etməsin */
+}
+
+.feedback-list__item:nth-child(2) a img {
+  transform: translateX(-15px); /* İkinci şəkil 40px sola hərəkət etsin */
+}
+
+.feedback-list__item:nth-child(3) a img {
+  transform: translateX(-30px); /* Üçüncü şəkil 80px sola hərəkət etsin */
+}
+
+.feedback-list__item:nth-child(4) a img {
+  transform: translateX(-45px); /* Dördüncü şəkil 120px sola hərəkət etsin */
+}
