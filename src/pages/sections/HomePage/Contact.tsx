@@ -3,9 +3,9 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 const Contact = () => {
-  const [phone, setPhone] = useState("");
+  const [phone, setPhone] = useState<string>("");
 
-  const handlePhoneChange = (value) => {
+  const handlePhoneChange = (value:string):void => {
     setPhone(value);
     console.log("Telefon nömrəsi:", value);
   };
