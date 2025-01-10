@@ -1,4 +1,4 @@
-import ScenarioCard from "../../components/ScenarioCard";
+import ScenarioCard from "../../../components/ScenarioCard";
 
 const PopularScenarios = () => {
   return <ScenarioCard title={"Ən çox oxunan ssenarilər"} />;

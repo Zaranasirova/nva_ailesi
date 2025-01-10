@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
-import star from "../../assets/image/Star 1.svg";
-import ellipse_image1 from "../../assets/image/Ellipse 1.png";
-import ellipse_image2 from "../../assets/image/Ellipse 2 (2).png";
-import ellipse_image3 from "../../assets/image/Ellipse 3.jpg";
-import ellipse_image4 from "../../assets/image/Ellipse 4.png";
+import star from "../../../assets/image/Star 1.svg";
+import ellipse_image1 from "../../../assets/image/Ellipse 1.png";
+import ellipse_image2 from "../../../assets/image/Ellipse 2 (2).png";
+import ellipse_image3 from "../../../assets/image/Ellipse 3.jpg";
+import ellipse_image4 from "../../../assets/image/Ellipse 4.png";
 
 const UserReviewsSection = () => {
   return (

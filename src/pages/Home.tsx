@@ -1,9 +1,9 @@
-import AboutSection from "./sections/AboutSection";
-import Banner from "./sections/Banner";
-import Contact from "./sections/Contact";
-import NewScenarios from "./sections/NewScenarios";
-import PopularScenarios from "./sections/PopularScenarios";
-import UserReviewsSection from "./sections/UserReviewsSection";
+import AboutSection from "./sections/HomePage/AboutSection";
+import Banner from "./sections/HomePage/Banner";
+import Contact from "./sections/HomePage/Contact";
+import NewScenarios from "./sections/HomePage/NewScenarios";
+import PopularScenarios from "./sections/HomePage/PopularScenarios";
+import UserReviewsSection from "./sections/HomePage/UserReviewsSection";
 
 const Home = () => {
   return (
