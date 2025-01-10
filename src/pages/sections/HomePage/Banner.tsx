@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import banner from "../../assets/image/ikea_1.jpg";
+import banner from "../../../assets/image/ikea_1.jpg";
 
 const Banner = () => {
   return (
