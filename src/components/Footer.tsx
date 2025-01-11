@@ -6,11 +6,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-wrapper">
         <div className="footer-logo-country-text">
-          <div className="fooer-logo">
+          <div className="footer-logo">
             <img src={logo} alt="logo" />
           </div>
           <p className="country-text">
-            Ölkənin ilk <span>özəl</span> və <span>#dahaFərqli</span>ssenari
+            Ölkənin ilk <span>özəl</span> və <span>#dahaFərqli</span> ssenari
             platformu
           </p>
         </div>
@@ -58,10 +58,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="copyWrite">
+      
+      </div>
+      <div className="copyWrite">
             <p>© 2024 Bütün hüquqlar qorunur</p>
         </div>
-      </div>
     </footer>
   );
 };

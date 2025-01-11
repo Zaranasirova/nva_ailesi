@@ -1,5 +1,50 @@
 .footer{
+  margin-top: 32px;
+    background-color: $orange-50-color;
 .footer-wrapper{
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    align-items: center;
+    .footer-logo-country-text{
+        display: flex;
+        flex-direction: column;
+        width: 285px;
+        gap: 20px;
+        .footer-logo{
+            width: 163px;
+            height: 164px;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+
+            }
+        }
+        .country-text{
+            width: 100%;
+            font-size: 16px;
+            font-weight: 400;
+            span{
+                font-weight: 500;
+                color: $primary-color;
+            }
+        }
+       
+    }
+    .footer-navbar{
+        .footer-navbar-list{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            align-items: center;
+            .footer-list{
+                a{
+                    font-size: 20px;
+                    font-weight: 400;
+                }
+            }
+        }    
+    }
 }
 }
