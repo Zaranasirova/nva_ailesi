@@ -6,6 +6,7 @@ import instagram_vector from "../assets/image/Icons/instagram.svg";
 import telegram_vector from "../assets/image/Icons/telegram.svg";
 
 const Footer = () => {
+  const currentYear = new Date().getFullYear()
   return (
     <footer className="footer">
       <div className="container footer-wrapper">
@@ -39,25 +40,25 @@ const Footer = () => {
             <li className="contact-list-item">
               <Link to={"/"}>
                 <span><img src={mail_vector} alt="mail_vector" /></span>
-                <span>nvailesi.az@gmail.com</span>
+                <span className="contact-list-text">nvailesi.az@gmail.com</span>
               </Link>
             </li>
             <li className="contact-list-item">
               <Link to={"/"}>
                 <span><img src={phone_vector} alt="phone_vector" /></span>
-                <span>(+994) 00 000 00 00</span>
+                <span className="contact-list-text">(+994) 00 000 00 00</span>
               </Link>
             </li>
             <li className="contact-list-item">
               <Link to={"/"}>
                 <span><img src={instagram_vector} alt="instagram_vector" /></span>
-                <span>nvailesi</span>
+                <span className="contact-list-text">nvailesi</span>
               </Link>
             </li>
             <li className="contact-list-item">
               <Link to={"/"}>
                 <span><img src={telegram_vector} alt="telegram_vector" /></span>
-                <span>nvailesi</span>
+                <span className="contact-list-text">nvailesi</span>
               </Link>
             </li>
           </ul>
@@ -65,7 +66,7 @@ const Footer = () => {
       
       </div>
       <div className="copyWrite">
-            <p>© 2024 Bütün hüquqlar qorunur</p>
+            <p>© {currentYear} Bütün hüquqlar qorunur</p>
         </div>
     </footer>
   );
